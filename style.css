@@ -1,6 +1,6 @@
-body{
+body {
     margin: 0;
-    background: linear-gradient(to left bottom,#abf479, #A95EA3, #DC3A79, #1686CD);
+    background: linear-gradient(to left bottom, #abf479, #A95EA3, #DC3A79, #1686CD);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -8,25 +8,25 @@ body{
     font-family: monospace;
 }
 
-.container{
-    background-color: rgba(255,255,255,.3);
+.container {
+    background-color: rgba(255, 255, 255, .3);
     padding: 20px;
-    box-shadow: 0 6px 10px rgba(0,0,0,.3);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .3);
     border-radius: 15px;
     width: 70%;
     text-align: center;
     color: darkgreen;
 }
 
-.heading{
+.heading {
     font-size: 35px;
     font-weight: 200;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 3px 4px 2px rgba(0,0,0,.3);
+    text-shadow: 3px 4px 2px rgba(0, 0, 0, .3);
     letter-spacing: 2px;
 }
 
-.joke{
+.joke {
     font-size: 25px;
     font-weight: 500;
     margin: 40px
@@ -38,17 +38,15 @@ body{
     border-radius: 8px;
     cursor: pointer;
     padding: 10px;
-    background-color: green; 
-    border-color: rgb(255, 255, 255); 
+    background-color: green;
+    border-color: rgb(255, 255, 255);
     text-transform: uppercase;
     width: 200px;
-    color: white; 
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4); 
-    transition: background-color 0.3s, color 0.3s; 
+    color: white;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .btn:hover {
     box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
 }
-
-

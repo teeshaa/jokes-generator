@@ -12,7 +12,7 @@ const options = {
     },
 };
 
-async function getJoke(){
+async function getJoke() {
     try {
         joke1.innerText = "Searching...";
         btn1.disabled = true;
@@ -24,14 +24,14 @@ async function getJoke(){
         btn1.innerText = "Tell me a Joke";
 
         joke1.innerText = data[0].joke;
-        
+
     } catch (error) {
         joke1.innerText = "Eroor!";
         btn1.disabled = false;
         btn1.innerText = "Tell me a Joke";
         console.log(error);
 
-        
+
     }
 }
 
