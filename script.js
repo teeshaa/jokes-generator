@@ -30,8 +30,6 @@ async function getJoke() {
         btn1.disabled = false;
         btn1.innerText = "Tell me a Joke";
         console.log(error);
-
-
     }
 }
 
